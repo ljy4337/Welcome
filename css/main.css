@@ -1781,6 +1781,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background-color: #FFFFFF;
   min-height: 696px;
   text-align: center;
+  height: 100%;
 }
 #about .about-wrap {
   max-width: 850px;
@@ -2004,26 +2005,28 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #portfolio {
-  background: #FFFFFF;
+  background: black;
   min-height: 800px;
   position: relative;
   padding: 0;
 }
 #portfolio .intro-wrap {
   padding: 15rem 0 21rem;
-  background: #111111;
+  background-image: url(../images/mac.jpg);
 }
 #portfolio .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);
 }
 #portfolio .section-intro h1 {
   color: #FFFFFF;
+
 }
 #portfolio .section-intro .lead {
   color: rgba(242, 242, 242, 0.4);
 }
 #portfolio .portfolio-content {
-  margin-top: -22.2rem;
+  margin-top: -6rem;
+
 }
 #portfolio .bricks-wrapper:before,
 #portfolio .bricks-wrapper:after {
